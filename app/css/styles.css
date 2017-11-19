@@ -56,7 +56,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
-  padding: 20% 0;
+  padding: 25% 0;
   text-align: center; }
   .header__title {
     font-size: 2em;
@@ -99,13 +99,18 @@ a {
     box-shadow: inset 0 11px 8px -10px rgba(0, 0, 0, 0.75);
     margin-top: .875em; }
   .navbar__list {
-    text-align: center; }
-    .navbar__list--collapse {
-      clear: both;
-      height: 0;
-      overflow: hidden; }
+    padding: 1em 0;
+    height: 14em;
+    overflow: hidden;
+    text-align: center;
+    transition: .25s; }
   .navbar__items {
     padding: 1.5em 0; }
+
+.js-collapse {
+  clear: both;
+  height: 0;
+  padding: 0; }
 
 .project {
   background: #00d7ff;
