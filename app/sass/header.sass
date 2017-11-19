@@ -1,18 +1,24 @@
 .header
-  background: #000
+  background: url(../img/header-bg.jpg), #000
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
   color: #fff
-  margin-bottom: 1em
-  padding-top: 4em
+  padding: 20% 0
   text-align: center
 
-.header__wrapper
-  margin-bottom: 4em
+  &__title
+    font-size: 2em
+    font-weight: bold
 
-.header__title
-  font-size: 2em
-  font-weight: bold
+  &__subline
+    font-size: .875em
+    font-style: italic
+    margin: .25em 0 3em 0
 
-.header__subline
-  font-size: .875em
-  font-style: italic
-  margin: .25em 0 1em 0
+  &__button
+    background: #8b0000;
+    border: 1px solid #580000
+    border-radius: 4px
+    font-weight: bold
+    padding: .5em 1em

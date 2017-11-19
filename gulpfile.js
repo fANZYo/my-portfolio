@@ -10,9 +10,11 @@ const cache = require('gulp-cache');
 const del = require('del');
 const browserSync = require('browser-sync').create();
 const runSequence = require('run-sequence');
+const plumber = require('gulp-plumber');
 
 gulp.task('sass', () => {
   return gulp.src('app/sass/styles.sass')
+    .pipe(plumber())
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({

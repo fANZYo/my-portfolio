@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="William IEHL portfolio" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!--build:css css/styles.min.css-->
     <link rel="stylesheet" href="css/styles.css">
     <!--endbuild-->
@@ -12,66 +13,75 @@
   </head>
   <body>
     <header class="panel header">
-      <div class="header__wrapper">
-        <h1 class="header__title">William IEHL</h1>
-        <p class="header__subline">Front end developper, enthusiast hacker</p>
-        <a class="header__button" href="#projects">Projects</a>
-      </div>
+      <h1 class="header__title">William IEHL</h1>
+      <p class="header__subline">Front end developper, enthusiast hacker</p>
+      <a class="header__button" href="#projects">Projects</a>
+    </header>
 
-      <nav class="navbar">
+    <section class="navbar">
+      <ul class="navbar__socials">
+        <li class="navbar__socialitems"><a href="https://twitter.com/www_iehl" target="_blank"><img src="img/twitter.png" alt="twitter" /></a></li>
+        <li class="navbar__socialitems"><a href="https://www.facebook.com/www.iehl" target="_blank"><img src="img/facebook.png" alt="facebook" /></a></li>
+        <li class="navbar__socialitems"><a href="https://github.com/fANZYo" target="_blank"><img src="img/github.png" alt="github" /></a></li>
+      </ul>
+      
+      <i class="navbar__hamburger fa fa-bars fa-lg" aria-hidden="true"></i>
+      <nav class="navbar__nav">
         <ul class="navbar__list">
           <li class="navbar__items">
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li class="navbar__items">
-            <a href="">Toolbox</a>
+            <a href="#tools">Toolbox</a>
           </li>
           <li class="navbar__items">
-            <a href="">Blogposts</a>
+            <a href="#blog">Blogposts</a>
           </li>
           <li class="navbar__items">
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </section> <!-- /end navbar -->
 
-    <section class="panel project">
+    <section id="projects" class="panel project">
       <h2 class="panel__title">Projects</h2>
       <div class="project__wrapper">
         <div class="project__left">
           <h3 class="project__title">Be Skatin'</h3>
-          <p class="project__text">
-            Blah blahblah blashalk lkalq qlkwje qwlkejq wqekfdsf qweek ad s qw wq kej lqwe. Blah blahblah blashalk lkalq qlkwje qwlkejq wqekfdsf qweek ad s qw wq kej lqwe. Blah blahblah blashalk lkalq qlkwje qwlkejq wqekfdsf qweek ad s qw wq kej lqwe.
-            <ul>
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-              <li>item 4</li>
+
+          <p class="project__text">Blah blahblah blashalk lkalq qlkwje qwlkejq wqekfdsf qweek ad s qw wq kej lqwe. Blah blahblah blashalk.</p>
+
+          <div class="project__items">lorem ipsum:
+            <ul class="project__list">
+              <li class="project__listitem">item 1</li>
+              <li class="project__listitem">item 2</li>
+              <li class="project__listitem">item 3</li>
+              <li class="project__listitem">item 4</li>
             </ul>
-            blask asd qw we riuewriu s qweiu wwq asdiuqw osadiou s qweiu wwq asdiuqw osadiou s qweiu wwq asdiuqw osadiou
-          </p>
-        </div>
+          </div>
+
+          <p>blask asd qw we riuewriu s qweiu wwq asdiuqw osadiou s qweiu ww.</p>
+        </div> <!-- /end project__left -->
 
         <div class="project__right">
-          <img class="project__img" src="" alt="">
+          <img class="project__img" src="img/beskatin-sm.jpg" alt="beskatin">
           <div class="project__tools">
-            <h3 class="project__subtitle">Tools</h3>
+            <h4 class="project__subtitle">Tools</h4>
           </div>
-          <img src="" alt="" />
         </div> <!-- /end project__right -->
       </div> <!-- /end project__wrapper -->
     </section> <!-- /end project -->
 
-    <section class="panel tools">
+    <section id="tools" class="panel tools">
       <h2 class="panel__title">Toolbox</h2>
     </section>
 
-    <section class="panel blog">
+    <section id="blog" class="panel blog">
       <h2 class="panel__title">Blogposts</h2>
     </section> <!-- /end blog -->
 
-    <section class="panel contact">
+    <section id="contact" class="panel contact">
       <h2 class="panel__title">Contact</h2>
     </section> <!-- /end contact -->
 
