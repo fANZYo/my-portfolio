@@ -142,8 +142,7 @@ h1, h2, h3, h4 {
   .project__toolList {
     font-size: .875em; }
   .project__toolItem {
-    background: #8b0000;
-    border: 1px solid #580000;
+    background: rgba(175, 34, 34, 0.8);
     color: #fff;
     display: inline-block;
     padding: .25em .5em;
