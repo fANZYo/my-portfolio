@@ -51,10 +51,10 @@ h1, h2, h3, h4 {
   letter-spacing: .03em; }
 
 .panel {
-  padding: 1.5em 0; }
+  padding: 1.5em 1.5em 0; }
   .panel__title {
     font-size: 1.625em;
-    margin-bottom: .875em;
+    margin-bottom: .5em;
     text-align: center; }
 
 .header {
@@ -122,21 +122,28 @@ h1, h2, h3, h4 {
 .project {
   line-height: 1.25em; }
   .project__wrapper {
-    margin: 0 auto;
-    padding: .5em;
-    position: relative;
-    width: 90%; }
+    border-bottom: 1px solid #14171a;
+    padding: 1em 0 .5em; }
   .project__title {
     font-size: 1.375em;
     margin-bottom: .625em; }
   .project__subtitle {
-    font-size: 1.125em; }
+    font-size: 1.125em;
+    margin: .5em 0; }
   .project__items {
     margin: .5em 0; }
   .project__list {
-    padding-left: 3em; }
-  .project__listitem {
-    list-style-type: disc;
+    padding-left: 3em;
+    list-style-type: circle;
     list-style-position: outside; }
   .project__img {
     max-width: 100%; }
+  .project__toolList {
+    font-size: .875em; }
+  .project__toolItem {
+    background: #8b0000;
+    border: 1px solid #580000;
+    color: #fff;
+    display: inline-block;
+    padding: .25em .5em;
+    vertical-align: top; }
