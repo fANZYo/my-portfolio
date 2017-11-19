@@ -43,6 +43,13 @@ a {
   *::before, *::after {
     box-sizing: border-box; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: .03em; }
+
 .panel {
   padding: 1.5em 0; }
   .panel__title {
@@ -76,12 +83,11 @@ a {
   background: #8b0000;
   color: #fff;
   line-height: 0;
-  padding-top: .875em;
-  text-align: right; }
+  padding-top: .875em; }
   .navbar__socials {
     display: inline-block;
-    float: left;
-    margin-left: .875em; }
+    padding-left: .875em;
+    width: 50%; }
   .navbar__socialitems {
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.25);
     display: inline-block;
@@ -91,40 +97,38 @@ a {
       border-radius: 4px;
       width: 100%; }
   .navbar__hamburger {
-    margin-right: .875em;
+    display: inline-block;
+    padding-right: .875em;
     padding-top: .15em;
-    vertical-align: top; }
+    text-align: right;
+    vertical-align: top;
+    width: 50%; }
   .navbar__nav {
     background: #14171a;
     box-shadow: inset 0 11px 8px -10px rgba(0, 0, 0, 0.75);
     margin-top: .875em; }
   .navbar__list {
-    padding: 1em 0;
-    height: 14em;
+    height: 12em;
     overflow: hidden;
-    text-align: center;
+    text-align: right;
     transition: .25s; }
   .navbar__items {
-    padding: 1.5em 0; }
+    padding: 1.5em .875em; }
 
 .js-collapse {
-  clear: both;
   height: 0;
   padding: 0; }
 
 .project {
-  background: #00d7ff;
   line-height: 1.25em; }
   .project__wrapper {
-    background: #fafafa;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     padding: .5em;
     position: relative;
     width: 90%; }
   .project__title {
     font-size: 1.375em;
-    margin: .625em 0; }
+    margin-bottom: .625em; }
   .project__subtitle {
     font-size: 1.125em; }
   .project__items {

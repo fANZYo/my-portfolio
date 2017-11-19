@@ -3,12 +3,11 @@
   color: #fff
   line-height: 0
   padding-top: .875em
-  text-align: right
 
   &__socials
     display: inline-block
-    float: left
-    margin-left: .875em
+    padding-left: .875em
+    width: 50%
 
   &__socialitems
     box-shadow: -1px 1px 5px rgba(0, 0, 0, .25)
@@ -20,9 +19,12 @@
       width: 100%
 
   &__hamburger
-    margin-right: .875em
+    display: inline-block
+    padding-right: .875em
     padding-top: .15em
+    text-align: right
     vertical-align: top
+    width: 50%
 
   &__nav
     background: #14171a
@@ -30,17 +32,15 @@
     margin-top: .875em
 
   &__list
-    padding: 1em 0
-    height: 14em
+    height: 12em
     overflow: hidden
-    text-align: center
+    text-align: right
     transition: .25s
     
   &__items
-    padding: 1.5em 0
+    padding: 1.5em .875em
 
 .js-collapse
-  clear: both
   height: 0
   padding: 0
 
