@@ -17,10 +17,8 @@ I'm still undecided whether to use plain css/sass or a library like [Material-ui
 ## Wireframing
 Inspiration: [Yevgeniy Brikman](https://www.ybrikman.com/projects/), [IBM DeveloperWorks](https://www.ibm.com/developerworks/)
 
-![Landing page](https://i.imgur.com/G6YxH5M.png?1)
-![Project page](https://i.imgur.com/0IpZcif.png?1)
-![Skills page](https://i.imgur.com/6dMwibT.png?1)
-![Blogpost page](https://i.imgur.com/Q0xU7xI.png?1)
+| ![Landing page](https://i.imgur.com/G6YxH5M.png?1) | ![Project page](https://i.imgur.com/0IpZcif.png?1) | ![Skills page](https://i.imgur.com/6dMwibT.png?1) | ![Blogpost page](https://i.imgur.com/Q0xU7xI.png?1) |
+| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 
 ### Landing page
 Simple page with a heading, a subline explaining what I do, a CTA to the projects page, a navigation menu and a list of contact options.
