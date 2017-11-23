@@ -9,8 +9,8 @@ The website should showcase my current level so i've decided to use:
 
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.
-  * **Node.js**:
-  I'm planning on doing server-side rendering on some of the pages such as the blogpost page using [Medium.com](https://medium.com) API as well as building a small JSON based CMS.
+  * **Node.js & Express**:
+  For SSR and API calls on the projects page and blogpost page as well as a small CMS.
 
 I'm still undecided whether to use plain css/sass or a library like [Material-ui](http://www.material-ui.com) and whether to use express or not.
 
