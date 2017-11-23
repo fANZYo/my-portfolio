@@ -5,14 +5,18 @@ It's time for me to build my portfolio.
 Everything should be less than one click away at all time.
 
 ## Technologies
-The website should showcase my current level so i've decided to use:
-
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.
   * **Node.js & Express**:
   For SSR and API calls on the projects page and blogpost page as well as a small CMS.
 
-I'm still undecided whether to use plain css/sass or a library like [Material-ui](http://www.material-ui.com) and whether to use express or not.
+## Sass
+Using Sass via node-sass-chokidar as recommended by create-react-app.
+
+## Scripts
+  * `npm start`: Will start the development server as well as `node-sass-chokidar --watch --recursive`.
+  * `npm run build`: Will build the app for production.
+  * `npm run eject`: Will eject from `create-react-app`.
 
 ## Wireframing
 Inspiration: [Yevgeniy Brikman](https://www.ybrikman.com/projects/), [IBM DeveloperWorks](https://www.ibm.com/developerworks/)
