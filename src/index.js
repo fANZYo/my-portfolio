@@ -5,9 +5,6 @@ import {
   Route,
 } from 'react-router-dom';
 
-// Components
-import Sidebar from './components/Sidebar';
-
 // Pages
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -22,15 +19,11 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Sidebar />
-
-        <div className="wrapper">
-          <Route exact path="/" component={Home}/>
-          <Route path="/Projects" component={Projects}/>
-          <Route path="/skills" component={Skills}/>
-          <Route path="/blog" component={Blog}/>
-          <Route path="/contact" component={Contact}/>
-        </div>
+        <Route exact path="/" component={Home}/>
+        <Route path="/Projects" component={Projects}/>
+        <Route path="/skills" component={Skills}/>
+        <Route path="/blog" component={Blog}/>
+        <Route path="/contact" component={Contact}/>
       </div>
     </Router>
   );
