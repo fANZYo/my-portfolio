@@ -14,6 +14,7 @@ import Contact from './pages/Contact';
 
 // Styles
 import './reset.css';
+import './index.css'
 
 const App = () => {
   return (
