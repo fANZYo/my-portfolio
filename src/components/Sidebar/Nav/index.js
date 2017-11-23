@@ -1,15 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Nav = () => {
+// Styles
+import './index.css'
+
+const Nav = (props) => {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/skills">Skills</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+    <nav className={props.className}>
+      <ul className="navList">
+        <li className="navList__item"><Link to="/">Home</Link></li>
+        <li className="navList__item"><Link to="/projects">Projects</Link></li>
+        <li className="navList__item"><Link to="/skills">Skills</Link></li>
+        <li className="navList__item"><Link to="/blog">Blog</Link></li>
+        <li className="navList__item"><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );

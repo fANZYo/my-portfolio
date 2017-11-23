@@ -10,8 +10,8 @@ import ContactIcons from './ContactIcons';
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <Nav />
-      <ContactIcons />
+      <Nav className="sidebar__nav" />
+      <ContactIcons className="sidebar__contacts" />
     </aside>
   );
 };

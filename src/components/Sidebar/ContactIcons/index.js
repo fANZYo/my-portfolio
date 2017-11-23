@@ -1,11 +1,15 @@
 import React from 'react';
+import { Icon } from 'react-fa';
 
-const ContactIcons = () => {
+// Styles
+import './index.css';
+
+const ContactIcons = (props) => {
   return (
-    <ul>
-      <li><a href="https://twitter.com/www_iehl" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-      <li><a href="https://www.facebook.com/www.iehl" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-      <li><a href="https://github.com/fANZYo" target="_blank" rel="noopener noreferrer">Github</a></li>
+    <ul className={props.className + " iconList"}>
+      <li className="iconList__item"><a href="https://twitter.com/www_iehl" target="_blank" rel="noopener noreferrer"><Icon name='twitter-square' size='lg' /></a></li>
+      <li className="iconList__item"><a href="https://www.facebook.com/www.iehl" target="_blank" rel="noopener noreferrer"><Icon name='facebook-square' size='lg' /></a></li>
+      <li className="iconList__item"><a href="https://github.com/fANZYo" target="_blank" rel="noopener noreferrer"><Icon name='github-square' size='lg' /></a></li>
     </ul>
   );
 };
