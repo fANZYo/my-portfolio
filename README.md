@@ -7,7 +7,7 @@ Everything should be less than one click away at all time.
 ## Technologies
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.
-  * **Node.js & Express**:
+  * **Express**:
   For SSR and API calls on the projects page and blogpost page as well as a small CMS.
 
 ## Sass
