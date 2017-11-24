@@ -1,8 +1,13 @@
 import React from 'react'
 
+// Styles
+import './index.css';
+
 const Contact = () => {
   return (
-    <h1>Contactt</h1>
+    <div>
+
+    </div>
   );
 };
 

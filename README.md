@@ -8,7 +8,7 @@ Everything should be less than one click away at all time.
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.
   * **Express**:
-  For SSR and API calls on the projects page and blogpost page as well as a small CMS.
+  For API calls on the projects page and blogpost page as well as a small CMS.
 
 ## Sass
 Using Sass via node-sass-chokidar as recommended by create-react-app.
@@ -36,4 +36,4 @@ I will likely make this page static later when I have a solid list of projects I
 This is where I will talk about what I can do, the tools I use and where I'm headed.
 
 ### Blogpost page
-Will dynamically pull a list of my posts from [Medium.com](https://medium.com) using: `http://medium.com/@user?format=json` and render them from the server.
+Will dynamically pull a list of my posts from [Medium.com](https://medium.com) using: `http://medium.com/@williamiehl?format=json` and render them.

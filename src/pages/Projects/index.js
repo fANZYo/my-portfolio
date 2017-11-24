@@ -1,8 +1,13 @@
 import React from 'react'
 
+// Styles
+import './index.css';
+
 const Portfolio = () => {
   return (
-    <h1>Portfolioo</h1>
+    <div>
+
+    </div>
   );
 };
 

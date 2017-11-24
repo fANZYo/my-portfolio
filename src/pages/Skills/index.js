@@ -1,8 +1,13 @@
 import React from 'react'
 
+// Styles
+import './index.css';
+
 const Skills = () => {
   return (
-    <h1>Skillss</h1>
+    <div>
+
+    </div>
   );
 };
 
