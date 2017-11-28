@@ -6,10 +6,10 @@ import './index.css';
 
 const Home = () => {
   return (
-    <div className="wrapper">
+    <div className="center">
       <section className="heading">
         <h1 className="heading__title">William IEHL</h1>
-        <p className="heading__subline">Front end developer</p>
+        <p className="heading__subline">I am a front end developer</p>
         <Link className="heading__button" to="/projects">Projects</Link>
       </section>
     </div>

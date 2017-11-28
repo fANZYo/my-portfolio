@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Components
-import Routes from './Routes';
+import Routes from './routes';
 
 // Styles
 import './reset.css';

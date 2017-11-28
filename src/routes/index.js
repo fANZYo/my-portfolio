@@ -20,11 +20,13 @@ const Routes = () => {
       <div>
         <Sidebar />
       
-        <Route exact path="/" component={Home}/>
-        <Route path="/projects" component={Projects}/>
-        <Route path="/blog" component={Blog}/>
-        <Route path="/skills" component={Skills}/>
-        <Route path="/contact" component={Contact}/>
+        <div className="wrapper">
+          <Route exact path="/" component={Home}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/blog" component={Blog}/>
+          <Route path="/skills" component={Skills}/>
+          <Route path="/contact" component={Contact}/>
+        </div>
       </div>
     </Router>
   )
