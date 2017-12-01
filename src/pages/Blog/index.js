@@ -20,14 +20,12 @@ class Blog extends React.Component {
   componentWillMount() {
     const data = null;
     const xhr = new XMLHttpRequest();
-    const that = this;
 
     // xhr.withCredentials = true;
 
-    xhr.addEventListener('readystatechange', function () {
-      if (this.readyState === 4) {
-        console.log(JSON.parse(this.responseText));
-        that.setState({ posts: JSON.parse(this.responseText) });
+    xhr.addEventListener('readystatechange', () => {
+      if (xhr.readyState === 4 && xhr.responseText !== "") {
+        this.setState({ posts: JSON.parse(xhr.responseText) });
       }
     });
 

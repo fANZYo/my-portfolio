@@ -1,0 +1,42 @@
+{
+  "projectList": [
+    {
+      "name": "Barrick Innovate Hackathon",
+      "description": "An Ethereum blockchain oriented solution to some of the difficulties of dealing with artisanal and small-scale mining (ASM) in developing countries such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirement are satisfied.",
+      "imgurl": "./img/InnovationHack.jpg",
+      "imgdesc": "Innovation Hackathon 2017 leaflet",
+      "url": "",
+      "github": "https://github.com/fANZYo/barrickInnovatesHack",
+      "tech": [
+        "React",
+        "Material-ui",
+        "Truffle",
+        "Ganache",
+        "Ethereum"
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "description": "My own personnal portfolio and likely the website you are viewing this from.",
+      "imgurl": "",
+      "imgdesc": "Screenshot of this portfolio's landing page",
+      "url": "",
+      "github": "https://github.com/fANZYo/my-portfolio",
+      "tech": [
+        "React",
+        "Express"
+      ]
+    },
+    {
+      "name": "Be Skatin'",
+      "description": "Be Skatin' is an inline skating club that aims to teach beginners and intermediate skaters the ins and outs of skating in the streets of London.",
+      "imgurl": "./img/beSkatin.jpg",
+      "imgdesc": "Screenshot of beskatin.co.uk landing page",
+      "url": "http://beskatin.co.uk",
+      "github": "https://github.com/fANZYo/beSkatin",
+      "tech": [
+        "jQuery"
+      ]
+    }
+  ]
+}

@@ -8,10 +8,7 @@ Everything should be less than one click away at all time.
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.
   * **Express**:
-  For API calls on the projects page and blogpost page as well as a small CMS.
-
-## Sass
-Using Sass via node-sass-chokidar as recommended by create-react-app.
+  For API calls on the projects page and blogpost page as well as a small custom CMS.
 
 ## Scripts
   * `npm start`: Will start the development server as well as `node-sass-chokidar --watch --recursive`.
