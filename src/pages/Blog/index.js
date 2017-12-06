@@ -12,7 +12,7 @@ class Blog extends React.Component {
     super(props);
 
     this.state = {
-      posts: {}, // Will hold a list of posts
+      posts: [], // Will hold a list of posts
     };
   }
 
@@ -25,7 +25,10 @@ class Blog extends React.Component {
 
     xhr.addEventListener('readystatechange', () => {
       if (xhr.readyState === 4 && xhr.responseText !== "") {
-        this.setState({ posts: JSON.parse(xhr.responseText) });
+        let ks = Object.keys(JSON.parse(xhr.responseText));
+        let posts = ks.map((k) => JSON.parse(xhr.responseText)[k]);
+
+        this.setState({ posts });
       }
     });
 
@@ -38,7 +41,12 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <Content posts={this.state.posts}/>
+      <section className="blog">
+        <h1>Blog Posts</h1>
+        <ul className="blogposts">
+          {this.state.posts.map(Content)}
+        </ul>
+      </section>
     );
   }
 };
