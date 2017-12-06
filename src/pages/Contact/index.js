@@ -5,9 +5,9 @@ import './index.css';
 
 const Contact = () => {
   return (
-    <div>
-
-    </div>
+    <section>
+      <h1>Contact me</h1>
+    </section>
   );
 };
 
