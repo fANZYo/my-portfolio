@@ -14,7 +14,7 @@ const Content = (props) => {
       <li className="blogposts__item" key={item.id}>
         <h2 className="blogposts__item__title">{item.title}</h2>
         <p className="blogposts__item__description">{item.content.subtitle}</p>
-        <a className="blogposts__item__link" href={url + item.uniqueSlug} target="_blank" rel="noopener noreferrer">See</a>
+        <a className="blogposts__item__link" href={url + item.uniqueSlug} target="_blank" rel="noopener noreferrer">Read</a>
       </li>
     );
   });

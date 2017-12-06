@@ -12,13 +12,14 @@
         "Material-ui",
         "Truffle",
         "Ganache",
+        "Solidity",
         "Ethereum"
       ]
     },
     {
       "name": "Portfolio",
       "description": "My own personnal portfolio and likely the website you are viewing this from.",
-      "imgurl": "",
+      "imgurl": "./img/portfolio.jpg",
       "imgdesc": "Screenshot of this portfolio's landing page",
       "url": "",
       "github": "https://github.com/fANZYo/my-portfolio",
