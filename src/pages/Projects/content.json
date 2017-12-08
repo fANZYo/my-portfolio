@@ -1,8 +1,22 @@
 {
   "projectList": [
     {
+      "name": "Living Knowledge Hackathon",
+      "description": "Providing an Ethereum blockchain based system to parcel tracking. Each handler updates its state upon delivering and receiving the package. This state contains information like; unique ID, possession of the parcel and a comment, allowing us to know exactly where in the chain the parcel got lost.",
+      "imgurl": "./img/LivingKnowledgeHack.jpg",
+      "imgdesc": "Living Knowledge Hackathon 2017 leaflet",
+      "url": "",
+      "github": "https://github.com/fANZYo/LivingKnowledgeHack17",
+      "tech": [
+        "Web3.js",
+        "Truffle",
+        "Solidity",
+        "Ethereum"
+      ]
+    },
+    {
       "name": "Barrick Innovate Hackathon",
-      "description": "An Ethereum blockchain oriented solution to some of the difficulties of dealing with artisanal and small-scale mining (ASM) in developing countries such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirement are satisfied.",
+      "description": "An Ethereum blockchain oriented solution to some of the difficulties in dealing with artisanal and small-scale mining (ASM) in developing countries, such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirement are satisfied.",
       "imgurl": "./img/InnovationHack.jpg",
       "imgdesc": "Innovation Hackathon 2017 leaflet",
       "url": "",

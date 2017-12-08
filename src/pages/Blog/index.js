@@ -42,7 +42,7 @@ class Blog extends React.Component {
   render() {
     return (
       <section className="blog">
-        <h1>Blog Posts</h1>
+        <h1 className="blog__heading">Blog Posts</h1>
         <ul className="blogposts">
           {this.state.posts.map(Content)}
         </ul>

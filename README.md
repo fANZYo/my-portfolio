@@ -4,6 +4,12 @@ It's time for me to build my portfolio.
 ## Ideology
 Everything should be less than one click away at all time.
 
+## CSS approach
+
+This project uses [SASS](http://sass-lang.com/) for CSS compilation. Common styles can be found in `src/sass` and everything else is split into components. 
+
+The `src/sass` folder contains the color scheme, fonts and breakpoint sizes sass files which are included in the the react components allwing changes to be made in one place for the whole site.
+
 ## Technologies
   * **React**:
   Even though the website won't have much re-rendering it will be good practice.

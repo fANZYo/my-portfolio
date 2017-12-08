@@ -30,7 +30,6 @@ class Portfolio extends React.Component {
     return (
       <section className="projects">
         <h1 className="projects__title">Projects</h1>
-        <p className="projects__text"></p>
         <ul className="projects__filters">
           <li>
             <label>React <input type="checkbox" name="filter" value="react" onChange={this.handleFilter.bind(this)} /></label>

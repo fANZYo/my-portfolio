@@ -1,0 +1,37 @@
+@import ../../sass/colors.sass
+
+.center
+  display: flex
+  align-items: center
+  justify-content: center
+  height: calc(100vh - 5em - 3px)
+
+.heading
+  text-align: center
+
+  &__title
+    font-size: 3em
+    font-weight: 600
+    margin-bottom: .1em
+
+  &__subline
+    margin-bottom: 2em
+
+  &__button
+    border: 1px solid $special
+    border-radius: 1em
+    color: $special
+    display: inline-block
+    margin-right: 1em
+    padding: .4em 0 .6em
+    text-align: center
+    text-transform: lowercase
+    vertical-align: top
+    width: 10em
+
+    &:last-child
+      margin-right: 0
+
+    &--fill
+      background: $special
+      color: $background
