@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import './index.css';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="center">
       <section className="heading">

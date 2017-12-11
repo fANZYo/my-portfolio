@@ -19,8 +19,10 @@ class Portfolio extends React.Component {
     const arr = this.state.filters.slice();
     if (arr.indexOf(event.target.value) === -1) {
       arr.push(event.target.value);
+      event.target.classList.add("projects__filters__button--selected")
     } else {
       arr.splice(arr.indexOf(event.target.value), 1);
+      event.target.classList.remove("projects__filters__button--selected")
     }
 
     this.setState({ filters: arr });
@@ -31,26 +33,26 @@ class Portfolio extends React.Component {
       <section className="projects">
         <h1 className="projects__title">Projects</h1>
         <ul className="projects__filters">
-          <li>
-            <label>React <input type="checkbox" name="filter" value="react" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="react">React</button>
           </li>
-          <li>
-            <label>jQuery <input type="checkbox" name="filter" value="jquery" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="jquery">jQuery</button>
           </li>
-          <li>
-            <label>Node.js <input type="checkbox" name="filter" value="node.js" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="node.js">Node.js</button>
           </li>
-          <li>
-            <label>Express <input type="checkbox" name="filter" value="express" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="express">Express</button>
           </li>
-          <li>
-            <label>Ethereum <input type="checkbox" name="filter" value="ethereum" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="ethereum">Ethereum</button>
           </li>
-          <li>
-            <label>Truffle <input type="checkbox" name="filter" value="truffle" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="truffle">Truffle</button>
           </li>
-          <li>
-            <label>Solidity <input type="checkbox" name="filter" value="solidity" onChange={this.handleFilter.bind(this)} /></label>
+          <li className="projects__filters__filter">
+            <button className="projects__filters__button" onClick={this.handleFilter.bind(this)} value="solidity">Solidity</button>
           </li>
         </ul>
         <ul className="projectsList">

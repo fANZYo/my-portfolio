@@ -4,6 +4,36 @@
 .projects
   padding: .5em
 
+  &__filters
+    text-align: center
+
+    @media screen and (min-width: $breakpoint-large)
+      text-align: right
+
+    &__filter
+      display: inline-block
+      margin: 0 .5em .5em 0
+      vertical-align: top
+
+      @media screen and (min-width: $breakpoint-large)
+        margin-bottom: 0
+
+      &:last-child
+        margin-right: 0
+
+    &__button
+      background: $background-dark
+      border: 0
+      color: $text
+      cursor: pointer
+      outline: none
+      padding: .5em 1em
+      transition: .2s
+
+      &--selected
+        background: $special
+        color: $background
+
   &__title
     font-size: 3em
     margin-bottom: .5em
@@ -30,6 +60,7 @@
       @media screen and (min-width: $breakpoint-large)
         float: right
         margin-bottom: 0
+        margin-left: 1em
         width: 45%
 
       &__img
@@ -39,11 +70,11 @@
       font-size: 2em
       margin-bottom: .5em
     &__blurb
-      margin-bottom: 1em
       color: $text-dark
+      margin-bottom: 1em
 
     &__tech
-      margin-bottom: .5em
+      margin-bottom: 1em
 
       &__title
         font-size: 1em
