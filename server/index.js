@@ -52,5 +52,8 @@ app.get('/blogposts', (req, res) => {
   xhr.end();
 });
 
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 // app.server.listen( 8080 );
 // console.log('Listening on http://localhost:8080...');
