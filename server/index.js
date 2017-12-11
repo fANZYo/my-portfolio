@@ -6,17 +6,18 @@ const express = require('express');
 
 const app = express();
 
-app.server = http.createServer(app);
+// app.server = http.createServer(app);
+app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, '../build')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Set cors for dev REMOVE IN PRODUCTION
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  next();
-});
+// app.use((req, res, next) => {
+  // res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
+  // res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  // next();
+// });
 
 // Medium.com options
 const username = 'williamiehl';
@@ -51,5 +52,5 @@ app.get('/blogposts', (req, res) => {
   xhr.end();
 });
 
-app.server.listen( 8080 );
-console.log('Listening on http://localhost:8080...');
+// app.server.listen( 8080 );
+// console.log('Listening on http://localhost:8080...');
