@@ -8,10 +8,4 @@ import Routes from './routes';
 import './reset.css';
 import './index.css'
 
-const App = () => {
-  return (
-    <Routes />
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Routes />, document.getElementById('root'));

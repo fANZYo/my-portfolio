@@ -2,7 +2,7 @@
 It's time for me to build my portfolio.
 
 ## Ideology
-Everything should be less than one click away at all time.
+I wanted everything to be less than one click away at all time.
 
 ## CSS approach
 
@@ -12,7 +12,7 @@ The `src/sass` folder contains the color scheme, fonts and breakpoint sizes sass
 
 ## Technologies
   * **React**:
-  Even though the website won't have much re-rendering it will be good practice.
+  Even though the website won't have much re-rendering a portfolio is a showcase of my ability and `react` is one of them.
   * **Express**:
   For API calls on the projects page and blogpost page as well as a small custom CMS.
 
@@ -22,8 +22,6 @@ The `src/sass` folder contains the color scheme, fonts and breakpoint sizes sass
   * `npm run eject`: Will eject from `create-react-app`.
 
 ## Wireframing
-Inspiration: [Yevgeniy Brikman](https://www.ybrikman.com/projects/), [IBM DeveloperWorks](https://www.ibm.com/developerworks/)
-
 | ![Landing page](https://i.imgur.com/G6YxH5M.png?1) | ![Project page](https://i.imgur.com/0IpZcif.png?1) | ![Skills page](https://i.imgur.com/6dMwibT.png?1) | ![Blogpost page](https://i.imgur.com/Q0xU7xI.png?1) |
 | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 

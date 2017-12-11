@@ -1,4 +1,5 @@
 import React from 'react'
+import { Icon } from 'react-fa';
 
 // Components
 import Content from './Content';
@@ -6,13 +7,13 @@ import Content from './Content';
 // Styles
 import './index.css';
 
-
 class Blog extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       posts: [], // Will hold a list of posts
+      isLoading: true,
     };
   }
 
@@ -41,12 +42,16 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <section className="blog">
-        <h1 className="blog__heading">Blog Posts</h1>
-        <ul className="blogposts">
-          {this.state.posts.map(Content)}
-        </ul>
-      </section>
+        <section className="blog">
+          <h1 className="blog__heading">Blog Posts</h1>
+          {
+            this.state.posts.length === 0 ?
+              <Icon className="loader" name="circle-o-notch" size="4x" spin  /> :
+              <ul className="blogposts">
+                {this.state.posts.map(Content)}
+              </ul>
+          }
+        </section>
     );
   }
 };

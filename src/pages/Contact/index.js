@@ -11,7 +11,7 @@ const Contact = () => {
       <ul className="contact__list">
         <li className="contact__list__item">
           <a className="contact__list__item__link" href="mailto:www.iehl@gmail.com" rel="noopener noreferrer">
-            <Icon className="contact__list__item__icon" name='envelope' size='4x' />
+            <Icon className="contact__list__item__icon contact__list__item__icon--reduce" name='envelope' />
             <h2 className="contact__list__item__title">Email</h2>
             <p>www.iehl@gmail.com</p>
           </a>

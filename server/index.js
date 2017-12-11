@@ -18,10 +18,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/projectlist', (req, res) => {
-  res.send('projects');
-});
-
 // Medium.com options
 const username = 'williamiehl';
 const options = {
