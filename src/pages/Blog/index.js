@@ -33,7 +33,6 @@ class Blog extends React.Component {
       }
     });
 
-    // CHANGE THIS LINE IN PRODUCTION
     xhr.open('GET', '/blogposts');
     // xhr.setRequestHeader('cache-control', 'no-cache');
 
