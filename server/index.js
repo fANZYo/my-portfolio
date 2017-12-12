@@ -52,8 +52,11 @@ app.get('/blogposts', (req, res) => {
   xhr.end();
 });
 
+// Always return the main index.html, so react-router render the route in the client
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'build', 'index.html'));
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
-// app.server.listen( 8080 );
-// console.log('Listening on http://localhost:8080...');
