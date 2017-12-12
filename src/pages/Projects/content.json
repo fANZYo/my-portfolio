@@ -2,7 +2,7 @@
   "projectList": [
     {
       "name": "Policing Hackathon",
-      "description": "The current system by which police officers communicate information to victims is painful and can lead to arguments going back and forth. This can often lead to degrading officer mental wellbeing. We created a communication system to share updates on the investigation of a crime, combined with notifications, status and further information regarding the progress of the investigation and optional information explaining some of the reasoning behing the decisions made by the officer.",
+      "description": "The current system by which police officers communicate information to victims is painful and can lead to arguments going back and forth. This can often lead to degrading officer mental wellbeing. We created a communication system to share updates on the investigation of a crime, combined with notifications, status and further information regarding the progress of the investigation and optional information explaining some of the reasoning behind the decisions made by the officer.",
       "imgurl": "./img/PolicingHack.jpg",
       "imgdesc": "Hack the police 2017 leaflet",
       "url": "",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Barrick Innovate Hackathon",
-      "description": "An Ethereum blockchain oriented solution to some of the difficulties in dealing with artisanal and small-scale mining (ASM) in developing countries, such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirement are satisfied.",
+      "description": "An Ethereum blockchain oriented solution to some of the difficulties in dealing with artisanal and small-scale mining (ASM) in developing countries, such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system, ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirements are satisfied.",
       "imgurl": "./img/InnovationHack.jpg",
       "imgdesc": "Innovation Hackathon 2017 leaflet",
       "url": "",
