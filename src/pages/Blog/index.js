@@ -34,7 +34,7 @@ class Blog extends React.Component {
     });
 
     // CHANGE THIS LINE IN PRODUCTION
-    xhr.open('GET', 'https://localhost:5000/blogposts');
+    xhr.open('GET', '/blogposts');
     // xhr.setRequestHeader('cache-control', 'no-cache');
 
     xhr.send(data);
