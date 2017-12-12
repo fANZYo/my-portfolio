@@ -47,7 +47,7 @@
       "description": "My own personnal portfolio and likely the website you are viewing this from.",
       "imgurl": "./img/portfolio.jpg",
       "imgdesc": "Screenshot of this portfolio's landing page",
-      "url": "https://www.william-iehl.com",
+      "url": "www.william-iehl.com",
       "github": "https://github.com/fANZYo/my-portfolio",
       "tech": [
         "React",
