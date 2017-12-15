@@ -28,7 +28,7 @@ const Content = (props, index) => {
           <Button href={props.url} label="Website" />
       }
 
-      <Button href={props.github} label="GitHub" />
+      <Button href={props.github} label="GitHub" tabindex={index} />
     </li>
   );
 };

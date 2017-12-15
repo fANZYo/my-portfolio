@@ -6,14 +6,14 @@ import './index.css';
 // Components
 import Button from '../../../components/Button';
 
-const Content = (props) => {
+const Content = (props, index) => {
   const url = 'https://medium.com/@williamiehl/';
 
   return (
       <li className="blogposts__item" key={props.id}>
         <h2 className="blogposts__item__title">{props.title}</h2>
         <p className="blogposts__item__description">{props.content.subtitle}</p>
-        <Button href={url + props.uniqueSlug} label="Read" />
+        <Button href={url + props.uniqueSlug} label="Read" tabindex={index} />
       </li>
   );
 };
