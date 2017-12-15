@@ -5,7 +5,7 @@ import './index.css';
 
 const Button = (props) => {
   return (
-    <a className="linkBtn" href={props.href} target="_blank" rel="noopener noreferrer">{props.label}</a>
+    <a className="linkBtn" href={props.href} target="_blank" rel="noopener noreferrer" tabindex={props.tabindex}>{props.label}</a>
   );
 };
 

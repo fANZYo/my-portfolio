@@ -45,7 +45,7 @@ class Blog extends React.Component {
           <h1 className="blog__heading">Blog Posts</h1>
           {
             this.state.posts.length === 0 ?
-              <Icon className="loader" name="circle-o-notch" size="4x" spin  /> :
+              <Icon className="loader" name="circle-o-notch" size="4x" spin /> :
               <ul className="blogposts">
                 {this.state.posts.map(Content)}
               </ul>
