@@ -10,11 +10,11 @@ const Nav = (props) => {
     <nav className={props.className}>
       <ul className={"navList" + (props.collapsed ? " navList--collapse" : "")}>
         <li onClick={props.navHandler.bind(this)} className="navList__item__link navList__item--bars"><Icon name='bars' size='lg' /></li>
-        <li className="navList__item"><NavLink className="navList__item__link" to="/">Home</NavLink></li>
-        <li className="navList__item"><NavLink className="navList__item__link" to="/projects">Projects</NavLink></li>
-        <li className="navList__item"><NavLink className="navList__item__link" to="/skills">Skills</NavLink></li>
-        <li className="navList__item"><NavLink className="navList__item__link" to="/blog">Blog</NavLink></li>
-        <li className="navList__item"><NavLink className="navList__item__link" to="/contact">Contact</NavLink></li>
+        <li className="navList__item"><NavLink tabIndex="-1" className="navList__item__link" to="/">Home</NavLink></li>
+        <li className="navList__item"><NavLink tabIndex="-1" className="navList__item__link" to="/projects">Projects</NavLink></li>
+        <li className="navList__item"><NavLink tabIndex="-1" className="navList__item__link" to="/skills">Skills</NavLink></li>
+        <li className="navList__item"><NavLink tabIndex="-1" className="navList__item__link" to="/blog">Blog</NavLink></li>
+        <li className="navList__item"><NavLink tabIndex="-1" className="navList__item__link" to="/contact">Contact</NavLink></li>
       </ul>
     </nav>
   );

@@ -13,7 +13,7 @@ const Content = (props, index) => {
       <li className="blogposts__item" key={props.id}>
         <h2 className="blogposts__item__title">{props.title}</h2>
         <p className="blogposts__item__description">{props.content.subtitle}</p>
-        <Button href={url + props.uniqueSlug} label="Read" tabindex={index} />
+        <Button href={url + props.uniqueSlug} label="Read" tabIndex={index} />
       </li>
   );
 };
