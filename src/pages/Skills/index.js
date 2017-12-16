@@ -32,7 +32,7 @@ const Skills = () => {
         <h2 className="skills__title"><Icon className="skills__title__icon" name='terminal' /> The future me</h2>
         <p className="skills__blurb">I am currently in the process of building an expertise in programming and want to expand my skillset in the following areas:</p>
         <ul className="skills__list">
-          <li>Full <em className="skills__list--em">stack development</em> with Node.js and Python</li>
+          <li><em className="skills__list--em">Full stack development</em> with Node.js and Python</li>
           <li>Specialisation in <em className="skills__list--em">rapid prototyping</em> and agile development</li>
           <li>Basics of <em className="skills__list--em">data science</em></li>
         </ul>
