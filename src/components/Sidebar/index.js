@@ -11,7 +11,7 @@ const Sidebar = (props) => {
   return (
     <aside className="sidebar">
       <ContactIcons className="sidebar__contacts" />
-      <Nav className="sidebar__nav" navHandler={props.navHandler.bind(this)} collapsed={props.collapsed} />
+      <Nav className="sidebar__nav" />
     </aside>
   );
 };

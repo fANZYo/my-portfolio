@@ -41,7 +41,7 @@ class Blog extends React.Component {
 
   render() {
     return (
-        <section className="blog">
+        <section className="blog wrapper">
           <h1 className="blog__heading">Blog Posts</h1>
           {
             this.state.posts.length === 0 ?

@@ -6,7 +6,7 @@ import './index.css';
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact wrapper">
       <h1 className="contact__heading">Contact me</h1>
       <ul className="contact__list">
         <li className="contact__list__item">

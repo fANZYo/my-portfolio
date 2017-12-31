@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <section className="projects">
+      <section className="projects wrapper">
         <h1 className="projects__title">Projects</h1>
         <ul className="projects__filters">
           <li className="projects__filters__filter">

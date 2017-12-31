@@ -6,7 +6,7 @@ import './index.css';
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills wrapper">
       <h1 className="skills__heading">My skills and offer</h1>
       <p className="skills__blurb">I am a front-end web developer keen on getting more experience.</p>
       <p className="skills__blurb">I take part in hackathons to hone my skills and read books and articles to expand my knowledge. I am passionate about what I do and will build an expertise in development.</p>
