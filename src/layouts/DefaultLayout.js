@@ -14,7 +14,7 @@ const DefaultLayout = ({location, component: Component, ...rest}) => {
       <TransitionGroup>
         <CSSTransition
           key={location.key}
-          timeout={250}
+          timeout={333}
           classNames='slide'>
           <Route {...rest} render={(props) => (
             <Component {...props} />
