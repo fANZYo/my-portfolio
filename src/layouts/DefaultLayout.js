@@ -1,19 +1,29 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 // Components
 import Sidebar from '../components/Sidebar';
 
-const DefaultLayout = ({component: Component, ...rest}) => (
-   <React.Fragment>
+const DefaultLayout = ({location, component: Component, ...rest}) => {
+  return (
+    <React.Fragment>
       <header>
-         <Sidebar />
+        <Sidebar />
       </header>
-      <Route {...rest} render={(props) => (
-         <Component {...props} />
-      )} />
-   </React.Fragment>
-);
+      <TransitionGroup>
+        <CSSTransition
+          key={location.key}
+          timeout={250}
+          classNames='slide'>
+          <Route {...rest} render={(props) => (
+            <Component {...props} />
+          )} />
+        </CSSTransition>
+      </TransitionGroup>
+    </React.Fragment>
+  );
+}
 
 export default DefaultLayout;
 

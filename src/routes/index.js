@@ -5,7 +5,6 @@ import {
 
 // Layouts
 import DefaultLayout from '../layouts/DefaultLayout';
-import CenteredLayout from '../layouts/CenteredLayout';
 import BlankLayout from '../layouts/BlankLayout';
 
 // Pages
@@ -18,7 +17,7 @@ import Contact from '../pages/Contact';
 const Routes = () => {
    return (
       <Switch>
-         <CenteredLayout exact path="/" component={Home}/>
+         <DefaultLayout exact path="/" component={Home}/>
          <DefaultLayout path="/projects" component={Projects}/>
          <DefaultLayout path="/blog" component={Blog}/>
          <DefaultLayout path="/skills" component={Skills}/>
