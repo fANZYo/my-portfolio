@@ -1,70 +1,113 @@
 {
-  "projectList": [
-    {
-      "name": "Policing Hackathon",
-      "description": "The current system by which police officers communicate information to victims is painful and can lead to arguments going back and forth. This can often lead to degrading officer mental wellbeing. We created a communication system to share updates on the investigation of a crime, combined with notifications, status and further information regarding the progress of the investigation and optional information explaining some of the reasoning behind the decisions made by the officer.",
-      "imgurl": "./img/PolicingHack.jpg",
-      "imgdesc": "Hack the police 2017 leaflet",
-      "url": "",
-      "github": "https://github.com/fANZYo/policingHack17",
-      "tech": [
-        "React",
-        "Socket.io"
-      ]
-    },
-    {
-      "name": "Living Knowledge Hackathon",
-      "description": "Providing an Ethereum blockchain based system to parcel tracking. Each handler updates its state upon delivering and receiving the package. This state contains information like; unique ID, possession of the parcel and a comment, allowing us to know exactly where in the chain the parcel got lost.",
-      "imgurl": "./img/LivingKnowledgeHack.jpg",
-      "imgdesc": "Living Knowledge Hackathon 2017 leaflet",
-      "url": "",
-      "github": "https://github.com/fANZYo/LivingKnowledgeHack17",
-      "tech": [
-        "Web3.js",
-        "Truffle",
-        "Solidity",
-        "Ethereum"
-      ]
-    },
-    {
-      "name": "Barrick Innovate Hackathon",
-      "description": "An Ethereum blockchain oriented solution to some of the difficulties in dealing with artisanal and small-scale mining (ASM) in developing countries, such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system, ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirements are satisfied.",
-      "imgurl": "./img/InnovationHack.jpg",
-      "imgdesc": "Innovation Hackathon 2017 leaflet",
-      "url": "",
-      "github": "https://github.com/fANZYo/barrickInnovatesHack",
-      "tech": [
-        "React",
-        "Material-ui",
-        "Truffle",
-        "Ganache",
-        "Solidity",
-        "Ethereum"
-      ]
-    },
-    {
-      "name": "Portfolio",
-      "description": "My own personnal portfolio and likely the website you are viewing this from.",
-      "imgurl": "./img/portfolio.jpg",
-      "imgdesc": "Screenshot of this portfolio's landing page",
-      "url": "http://www.william-iehl.com",
-      "github": "https://github.com/fANZYo/my-portfolio",
-      "tech": [
-        "React",
-        "Node.js",
-        "Express"
-      ]
-    },
-    {
-      "name": "Be Skatin'",
-      "description": "Be Skatin' is an inline skating club that aims to teach beginners and intermediate skaters the ins and outs of skating in the streets of London.",
-      "imgurl": "./img/beSkatin.jpg",
-      "imgdesc": "Screenshot of beskatin.co.uk landing page",
-      "url": "http://beskatin.co.uk",
-      "github": "https://github.com/fANZYo/beSkatin",
-      "tech": [
-        "jQuery"
-      ]
-    }
-  ]
+	"projectList": [
+		{
+			"name": "Scope",
+			"description": "Scope is a national disability charity that campaigns to bring equality for disabled people. Accessibility and performance were the two main focus points, keeping user experience in mind throughout the project. User testing as well as accessibility and performance audit results have made me very proud of the work I have done on this project.",
+			"imgurl": "./img/scope.jpg",
+			"imgdesc": "Scope",
+			"url": "https://scope.org.uk/",
+			"github": "",
+			"tech": [
+				"ES6+",
+				"Sass",
+				"Webpack",
+				"Node.js",
+				"Express"
+			]
+		},
+		{
+			"name": "Wolves TV",
+			"description": "Wolves TV is a mini-site integrated with StreamUK's api to provide Wolves fans with a separate platform to watch all Wolves related free & premium video content.",
+			"imgurl": "./img/wolves-tv.jpg",
+			"imgdesc": "Wolves TV landing page",
+			"url": "https://tv.wolves.co.uk/",
+			"github": "",
+			"tech": [
+				"ES6+",
+				"jQuery",
+				"Sass",
+				"Gulp"
+			]
+		},
+		{
+			"name": "Tottenham Hotspur F.C.",
+			"description": "",
+			"imgurl": "./img/spurs.jpg",
+			"imgdesc": "Tottenham Hotspur F.C. website",
+			"url": "https://www.tottenhamhotspur.com/",
+			"github": "",
+			"tech": [
+				"React",
+				"ES6+",
+				"Sass",
+				"Webpack"
+			]
+		},
+		{
+			"name": "Portfolio",
+			"description": "My own personnal portfolio and likely the website you are viewing this from.",
+			"imgurl": "./img/portfolio.jpg",
+			"imgdesc": "Screenshot of this portfolio's landing page",
+			"url": "http://www.william-iehl.com",
+			"github": "https://github.com/fANZYo/my-portfolio",
+			"tech": [
+				"React",
+				"Node.js",
+				"Express"
+			]
+		},
+		{
+			"name": "Policing Hackathon",
+			"description": "The current system by which police officers communicate information to victims is painful and can lead to arguments going back and forth. This can often lead to degrading officer mental wellbeing. We created a communication system to share updates on the investigation of a crime, combined with notifications, status and further information regarding the progress of the investigation and optional information explaining some of the reasoning behind the decisions made by the officer.",
+			"imgurl": "./img/PolicingHack.jpg",
+			"imgdesc": "Hack the police 2017 leaflet",
+			"url": "",
+			"github": "https://github.com/fANZYo/policingHack17",
+			"tech": [
+				"React",
+				"Socket.io"
+			]
+		},
+		{
+			"name": "Living Knowledge Hackathon",
+			"description": "Providing an Ethereum blockchain based system to parcel tracking. Each handler updates its state upon delivering and receiving the package. This state contains information like; unique ID, possession of the parcel and a comment, allowing us to know exactly where in the chain the parcel got lost.",
+			"imgurl": "./img/LivingKnowledgeHack.jpg",
+			"imgdesc": "Living Knowledge Hackathon 2017 leaflet",
+			"url": "",
+			"github": "https://github.com/fANZYo/LivingKnowledgeHack17",
+			"tech": [
+				"Web3.js",
+				"Truffle",
+				"Solidity",
+				"Ethereum"
+			]
+		},
+		{
+			"name": "Barrick Innovate Hackathon",
+			"description": "An Ethereum blockchain oriented solution to some of the difficulties in dealing with artisanal and small-scale mining (ASM) in developing countries, such as illegal mining, slavery, child labour, heated conflict over land ownership. We provide a service that aims to create a community for ASM to work safely and in a stable environment. Through our system, ASM will have the opportunity to inform Barrick of a potential opportunity via a picture containing geographic location. If it is indeed an opportunity, Barrick will be in a position to fund and employ said ASM once training and vetting requirements are satisfied.",
+			"imgurl": "./img/InnovationHack.jpg",
+			"imgdesc": "Innovation Hackathon 2017 leaflet",
+			"url": "",
+			"github": "https://github.com/fANZYo/barrickInnovatesHack",
+			"tech": [
+				"React",
+				"Material-ui",
+				"Truffle",
+				"Ganache",
+				"Solidity",
+				"Ethereum"
+			]
+		},
+		{
+			"name": "Be Skatin'",
+			"description": "Be Skatin' is an inline skating club that aims to teach beginners and intermediate skaters the ins and outs of skating in the streets of London.",
+			"imgurl": "./img/beSkatin.jpg",
+			"imgdesc": "Screenshot of beskatin.co.uk landing page",
+			"url": "",
+			"github": "https://github.com/fANZYo/beSkatin",
+			"tech": [
+				"jQuery"
+			]
+		}
+	]
 }
