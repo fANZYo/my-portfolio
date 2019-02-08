@@ -8,51 +8,53 @@ import Content from './Content';
 import './index.css';
 
 class Blog extends React.Component {
-  constructor(props) {
-    super(props);
+	constructor(props) {
+		super(props);
 
-    this.state = {
-      posts: [], // Will hold a list of posts
-      isLoading: true,
-    };
-  }
+		this.state = {
+			posts: [], // Will hold a list of posts
+			isLoading: true,
+		};
+	}
 
-  // Set state with the list of posts on receive
-  componentWillMount() {
-    const data = null;
-    const xhr = new XMLHttpRequest();
+	// Set state with the list of posts on receive
+	componentDidMount() {
+		const sessionPosts = window.sessionStorage.getItem('posts');
 
-    // xhr.withCredentials = true;
+		if (!sessionPosts) {
+			fetch('/blogposts')
+				.then(res => res.json())
+				.then(posts => {
+					const keys = Object.keys(posts);
+					const temp = keys.map(k => posts[k]);
 
-    xhr.addEventListener('readystatechange', () => {
-      if (xhr.readyState === 4 && xhr.responseText !== "") {
-        let ks = Object.keys(JSON.parse(xhr.responseText));
-        let posts = ks.map((k) => JSON.parse(xhr.responseText)[k]);
+					this.setState({
+						posts: temp,
+					}, () => {
+						window.sessionStorage.setItem('posts', JSON.stringify(this.state.posts));
+					});
+				});
+		} else {
+			this.setState({
+				posts: JSON.parse(sessionPosts),
+			});
+		}
+	}
 
-        this.setState({ posts });
-      }
-    });
-
-    xhr.open('GET', '/blogposts');
-    // xhr.setRequestHeader('cache-control', 'no-cache');
-
-    xhr.send(data);
-  }
-
-  render() {
-    return (
-        <section className="blog wrapper">
-          <h1 className="blog__heading">Blog Posts</h1>
-          {
-            this.state.posts.length === 0 ?
-              <Icon className="loader" name="circle-o-notch" size="4x" spin /> :
-              <ul className="blogposts">
-                {this.state.posts.map(Content)}
-              </ul>
-          }
-        </section>
-    );
-  }
+	render() {
+		return (
+			<section className="blog wrapper">
+				<h1 className="blog__heading">Blog Posts</h1>
+				{
+					this.state.posts.length === 0 ?
+						<Icon className="loader" name="circle-o-notch" size="4x" spin /> :
+						<ul className="blogposts">
+							{this.state.posts.map(Content)}
+						</ul>
+				}
+			</section>
+		);
+	}
 };
 
 export default Blog;
