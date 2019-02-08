@@ -4,9 +4,9 @@ import React from 'react';
 import './index.css';
 
 const Button = (props) => {
-  return (
-    <a className="linkBtn" href={props.href} target="_blank" rel="noopener noreferrer" tabindex={props.tabindex}>{props.label}</a>
-  );
+	return (
+		<a className="linkBtn" href={props.href} target="_blank" rel="noopener noreferrer" tabIndex={props.tabindex}>{props.label}</a>
+	);
 };
 
 export default Button;

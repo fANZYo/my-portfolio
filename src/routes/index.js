@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Switch
+	Switch
 } from 'react-router-dom';
 
 // Layouts
@@ -15,16 +15,16 @@ import Skills from '../pages/Skills';
 import Contact from '../pages/Contact';
 
 const Routes = () => {
-   return (
-      <Switch>
-         <DefaultLayout exact path="/" component={Home}/>
-         <DefaultLayout path="/projects" component={Projects}/>
-         <DefaultLayout path="/blog" component={Blog}/>
-         <DefaultLayout path="/skills" component={Skills}/>
-         <DefaultLayout path="/contact" component={Contact}/>
-         <BlankLayout path="/:else" />
-      </Switch>
-   );
+	return (
+		<Switch>
+			<DefaultLayout exact path="/" component={Home}/>
+			<DefaultLayout path="/projects" component={Projects}/>
+			<DefaultLayout path="/blog" component={Blog}/>
+			<DefaultLayout path="/skills" component={Skills}/>
+			<DefaultLayout path="/contact" component={Contact}/>
+			<BlankLayout path="/:else" />
+		</Switch>
+	);
 };
 
 export default Routes;
